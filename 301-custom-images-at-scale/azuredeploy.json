@@ -10,8 +10,9 @@
     },
     "transferVMSize": {
       "type": "string",
-      "defaultValue": "Standard_D4",
+      "defaultValue": "Standard_D1_V2",
       "allowedValues": [
+        "Standard_D1_V2",
         "Standard_A4",
         "Standard_A7",
         "Standard_D4",
@@ -23,7 +24,7 @@
     },
     "computeVMSize": {
       "type": "string",
-      "defaultValue": "Standard_A1",
+      "defaultValue": "Standard_D1_V2",
       "allowedValues": [
         "Standard_A1",
         "Standard_A2",
@@ -37,6 +38,7 @@
         "Standard_A10",
         "Standard_A11",
         "Standard_D1",
+        "Standard_D1_V2",
         "Standard_D2",
         "Standard_D3",
         "Standard_D3_v2",
